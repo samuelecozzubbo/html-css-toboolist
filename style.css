@@ -31,6 +31,45 @@ main{
     margin-left: 50px;
 }
 
+#bluebutton{
+    background-color: rgb(0, 149, 255);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    border-color: grey;
+    border: solid 2px;
+}
+
+#whitebutton{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    color: grey;
+    border-color: grey;
+    border: solid 2px;
+}
+
 .element{
     margin:16px 50px 16px;
+}
+
+.triangle::before{
+    content: '\25BE';
+}
+
+.check::before{
+    content: '\2713';
+    color: green;
+    margin: 10px;
+}
+
+.editorial{
+    background-color: rgb(0, 149, 255);
+    color: white;
+    box-sizing: border-box;
+    border-radius: 30%;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    margin: 10px;
 }
