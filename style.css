@@ -3,14 +3,34 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Golos Text", sans-serif;
-
 }
 
-header{
-    margin: 16px;
+#intestazione{
+    padding: 16px;
     font-size: 30px;
+    background-color: white;
+    display: block;
 }
 
 header h1{
     display: inline-block;
+}
+
+main{
+    background-color: aqua;
+}
+
+#container{
+    background-color: white;
+    margin: 20px 15%;
+}
+
+.nav{
+    line-height: 40px;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
+.element{
+    margin:16px 50px 16px;
 }
